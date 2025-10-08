@@ -142,4 +142,5 @@ temp <- write.table(subset_sequences, file = "subset_sequences_HARVARD_As1e_FIPp
 
 length(subset_sequences$matrix.unlist.subset_sequences...nrow...length.subset_sequences...)
 
+
 testing <- subset_sequences$matrix.unlist.subset_sequences...nrow...length.subset_sequences...[subset_sequences$matrix.unlist.subset_sequences...nrow...length.subset_sequences...=="CGGTGGACAAATTGTCACC"]
