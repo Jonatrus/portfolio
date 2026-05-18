@@ -1,0 +1,11 @@
+# Virtual environment
+.venv/
+
+# IDE
+.vscode/
+
+# Folders and Files
+Routine_Analysis_of_Bacterial_WGS_Data/Routine_Analysis_of_Bacterial_WGS_Data/microorganisms-10-02364-s001/
+Routine_Analysis_of_Bacterial_WGS_Data/microorganisms-10-02364-s001.zip
+data/raw
+Routine_Analysis_of_Bacterial_WGS_Data/data/raw
