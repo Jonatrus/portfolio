@@ -1,16 +1,7 @@
-from Bio import Entrez
-from Bio import SeqIO
+# COmmands run for pipeline
 
-# NCBI requires email
-Entrez.email = "jonny.kobrus@outlook.com"
+"""
+in the data/ folder
 
-accession = "PRJNA891285"
-
-handle = Entrez.efetch(
-    db="nucleotide",
-    id=accession,
-    rettype="gb",
-    retmode="text"
-)
-
-record = SeqIO.read(handle, "genbank")
+fastp -i raw/SRR21931766_1.fastq.gz -I raw/SRR21931766_2.fastq.gz -o preprocessed/SRR21931766_1.fastq.gz -O preprocessed/SRR21931766_2.fastq.gz
+"""
