@@ -9,3 +9,24 @@ Routine_Analysis_of_Bacterial_WGS_Data/Routine_Analysis_of_Bacterial_WGS_Data/mi
 Routine_Analysis_of_Bacterial_WGS_Data/microorganisms-10-02364-s001.zip
 Routine_Analysis_of_Bacterial_WGS_Data/data/
 Routine_Analysis_of_Bacterial_WGS_Data/results/
+
+
+# -----Biocomputing FInal Project gitignore----------
+# Python cache
+Biocomputing_Final_Project/__pycache__
+Biocomputing_Final_Project/*.pyc
+
+# OS files
+Biocomputing_Final_Project/.DS_Store
+Biocomputing_Final_Project/Thumbs.db
+
+# Environment variables
+Biocomputing_Final_Project/.env
+
+# IDE files
+Biocomputing_Final_Project/.vscode/
+Biocomputing_Final_Project/.idea/
+
+# Project notes
+Biocomputing_Final_Project/Questions about the Coursework.txt
+Biocomputing_Final_Project/project advise.txt
